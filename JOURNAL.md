@@ -83,3 +83,24 @@ This time I decided to switch to EasyEDA. In V1 I chose Kicad mainly because the
 **Total time spent: 3 hrs**
 
 
+<br>
+<br>
+
+
+# September 3rd: Began footprint editing
+
+While designing the PCB, I wanted it to be as easy to assemble as possible. Which is why I wanted to add custom footprints with female pin headers for JLCPCB assembly. That way all the components I buy could just "snap" onto the PCB board without the need for any soldering (of course the pin headers would need to be soldered but it would make my components replaceable!). However I ran into some major issues. Because I was using the absolute cheapest components I could find (of course I made sure there were still a sizable number of reviews) I couldn't really find datasheets online which the exact specifications. For example I wasnt't too sure of the width of the nano clone and a bunch of other smaller issues, like there being no good way to attach the buck converter since it was through hole to through hole (male pin headers wouldn't work b/c too many amps AND there was only one through hole on each corner of the buck converter). I could have used screw terminals and wires but I was very adamant about this part of the pcb being whole because I just decided to have the 3 buttons for toilet paper thickness to a separate PCB at the top of the machine. Even worse, when I finally did obtain all my footprints, a lot of them got jangled. I think I got lucky the first 2 times using software like EasyEDA because all the pins from the schematic and footprints perfectly matched so I didn't bother checking this time around, much to my detriment.  
+
+One of my attempts to make footprints in EasyEDA:
+
+![custom footprint](Images\V2\custom_footprint1.png)
+
+Here are the messed up pins:
+
+![messed schematic](Images\V2\messed_schematic.png)
+
+![messed_pcb](Images\V2\messed_pcb.png)
+
+
+
+**Total time spent: 3 hrs**
