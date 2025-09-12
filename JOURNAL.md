@@ -87,7 +87,7 @@ This time I decided to switch to EasyEDA. In V1 I chose Kicad mainly because the
 <br>
 
 
-# September 3rd: Began footprint editing
+# September 3rd: Footprint editing
 
 While designing the PCB, I wanted it to be as easy to assemble as possible. Which is why I wanted to add custom footprints with female pin headers for JLCPCB assembly. That way all the components I buy could just "snap" onto the PCB board without the need for any soldering (of course the pin headers would need to be soldered but it would make my components replaceable!). However I ran into some major issues. Because I was using the absolute cheapest components I could find (of course I made sure there were still a sizable number of reviews) I couldn't really find datasheets online which the exact specifications. For example I wasnt't too sure of the width of the nano clone and a bunch of other smaller issues, like there being no good way to attach the buck converter since it was through hole to through hole (male pin headers wouldn't work b/c too many amps AND there was only one through hole on each corner of the buck converter). I could have used screw terminals and wires but I was very adamant about this part of the pcb being whole because I just decided to have the 3 buttons for toilet paper thickness to a separate PCB at the top of the machine. Even worse, when I finally did obtain all my footprints, a lot of them got jangled. I think I got lucky the first 2 times using software like EasyEDA because all the pins from the schematic and footprints perfectly matched so I didn't bother checking this time around, much to my detriment.  
 
@@ -104,3 +104,14 @@ Here are the messed up pins:
 
 
 **Total time spent: 3 hrs**
+
+
+# September 11th: Finished 1st PCB
+
+I realized that I didn't actually know which pin is positive or negative on the barrel jack. After 45 minutes of trying to dig for the barrel jack company's data sheets, I gave up and switched to one that was 3 times more expensive on Aliexpress but I knew the polarity of. Unfortunately there was only one person to have bought it before so I'm hoping I don't get fleeced. The rest was pretty smooth sailing. I made sure the dimensions of the PCB where slightly smaller than the 3d printed box. This PCB contains all the components EXCEPT for the 3 switches, which will be a separate PCB that I'll make tomorrow.
+
+![1st PCB](Images\V2\PCB1.png)
+
+![3d view](Images\V2\PCB1_3D.png)
+
+**Total time spent: 2.5 hrs**
