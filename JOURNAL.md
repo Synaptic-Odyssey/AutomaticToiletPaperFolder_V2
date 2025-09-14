@@ -115,3 +115,31 @@ I realized that I didn't actually know which pin is positive or negative on the 
 ![3d view](Images\V2\PCB1_3D.png)
 
 **Total time spent: 2.5 hrs**
+
+
+
+
+
+
+
+
+
+
+
+
+
+# September 12th: Finished 2nd (button) PCB
+
+
+![alt text](image.png)
+![alt text](image-1.png)
+
+**Total time spent: 0.75 hrs**
+
+
+
+# September 13th: Downsized 1st PCB
+
+![alt text](image-2.png)
+
+**Total time spent: 0.5 hrs**
