@@ -121,18 +121,12 @@ I realized that I didn't actually know which pin is positive or negative on the 
 
 
 
-
-
-
-
-
-
-
 # September 12th: Finished 2nd (button) PCB
 
+I wanted the 3 buttons that control the thickness of the toilet paper folds to be at the top for easy user access and because it looks nice. Since it is 90 degrees to the bulk of the board (which I will fit vertically alongst the backside of the toilet paper folder), I made another pcb for it.
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](Images\V2\button_schematic.png)
+![alt text](Images\V2\button_pcb.png)
 
 **Total time spent: 0.75 hrs**
 
@@ -140,6 +134,8 @@ I realized that I didn't actually know which pin is positive or negative on the 
 
 # September 13th: Downsized 1st PCB
 
-![alt text](image-2.png)
+After putting it through JLC PCB and seeing the price...I realized I had to make the pcb a lot smaller and compact to save costs. Also I suppose it's a good habit to conserve as much space as possible for tolerance issues etc.
+
+![alt text](Images\V2\downsized_pcb.png)
 
 **Total time spent: 0.5 hrs**
