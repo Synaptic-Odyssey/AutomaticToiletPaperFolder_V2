@@ -10,7 +10,7 @@ Main PCB:
 
 ![Final_PCB](Images/Final/Final_PCB.png)
 
-![Final_schematic](Images/V2/V2_schematic.png)
+![Final_schematic](Images/V2/V2_%20schematic.png)
 
 
 
