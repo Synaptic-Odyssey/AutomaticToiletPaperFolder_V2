@@ -13,10 +13,10 @@ mainly because of the restricted materials available then.
 
 Here is a list of the materials (screenshots of my google doc for planning b/c I don't like planning in markdown)
 
-![comp0](Images\V1\comp0.png)
-![comp1](Images\V1\comp1.png)
-![comp2](Images\V1\comp2.png)
-![comp3](Images\V1\comp3.png)
+![comp0](Images/V1/comp0.png)
+![comp1](Images/V1/comp1.png)
+![comp2](Images/V1/comp2.png)
+![comp3](Images/V1/comp3.png)
 
 **Total time spent: 2.5 hrs**
 
@@ -28,7 +28,7 @@ Here is a list of the materials (screenshots of my google doc for planning b/c I
 
 # August 25th: Created Schematic
 
-![V1_Schematic](Images\V1\V1_schematic.png)
+![V1_Schematic](Images/V1/V1_schematic.png)
 
 I used Kicad to create the schematic. I decided to represent the DC motor encoder with a 1x4 connector because it was essentially the same thing even though the encoder itself was attached to the motor. It didn't matter since in the actual PCB it was all going to be connected by jumper wires, so no copper padding for most things besides the arduino clone, driver, and switches. This took me a while because it's the 2nd schematic I've created with Kicad and the 3rd schematic I've created overall (I made a project using EasyEDA).
 
@@ -44,7 +44,7 @@ I used Kicad to create the schematic. I decided to represent the DC motor encode
 Finding footprints is probably my least favorite thing about hardware projects and it took me a frustrating amount of time....
 My main concern with the PCB was actually the placment of the buttons. I wanted the buttons to physically be at the top of the folder like the prototype, but the issue is that in the prototype there were 2 breadboards. For the purposes of grounded, only one PCB is sponsored. So I decided that buttons would be on one side of the PCB and the rest of the bulky components would be on the otherside (so protrusions in the case wouldn't be needed to accomodate the other components). The drivers and nano had so many connections that it was actually fairly challenging to wire everything on the chip.
 
-![V1_PCB](Images\V1\V1_PCB.png)
+![V1_PCB](Images/V1/V1_PCB.png)
 
 
 **Total time spent: 4 hrs**
@@ -58,8 +58,8 @@ My main concern with the PCB was actually the placment of the buttons. I wanted 
 
 I realized that the JLC DC motors were no where near powerful enough after I tested one that my friend had. I had to switch the entire design to revolve around stepper motors. Furthermore, I decided to use a wall adapter because 2 9V batteries had too much internal resistance thus rendering them much less effective than I thought (this was part of the initial design mainly because wall adapters are sooo expensive!!) and they ran out too quickly if I were to switch to NEMA 17 steppers. This entire change required another voltage converter to be bought so I could power the arduino nano from the wall adapter as well, and I had to switch the dual driver over to 2 stepper drivers. Furthermore, I found that buying directly from the manufacturer, in the case of NEMA 17 steppers, was WAYYYYY cheaper than buying the stuff from Aliexpress.
 
-![comp0](Images\V2\comp0.png)
-![comp1](Images\V2\comp1.png)
+![comp0](Images/V2/comp0.png)
+![comp1](Images/V2/comp1.png)
 
 
 **Total time spent: 2.5 hrs**
@@ -89,13 +89,13 @@ While designing the PCB, I wanted it to be as easy to assemble as possible. Whic
 
 One of my attempts to make footprints in EasyEDA:
 
-![custom footprint](Images\V2\custom_footprint1.png)
+![custom footprint](Images/V2/custom_footprint1.png)
 
 Here are the messed up pins:
 
-![messed schematic](Images\V2\messed_schematic.png)
+![messed schematic](Images/V2/messed_schematic.png)
 
-![messed_pcb](Images\V2\messed_pcb.png)
+![messed_pcb](Images/V2/messed_pcb.png)
 
 
 **Total time spent: 3 hrs**
@@ -110,9 +110,9 @@ Here are the messed up pins:
 
 I realized that I didn't actually know which pin is positive or negative on the barrel jack. After 45 minutes of trying to dig for the barrel jack company's data sheets, I gave up and switched to one that was 3 times more expensive on Aliexpress but I knew the polarity of. Unfortunately there was only one person to have bought it before so I'm hoping I don't get fleeced. The rest was pretty smooth sailing. I made sure the dimensions of the PCB where slightly smaller than the 3d printed box. This PCB contains all the components EXCEPT for the 3 switches, which will be a separate PCB that I'll make tomorrow.
 
-![1st PCB](Images\V2\PCB1.png)
+![1st PCB](Images/V2/PCB1.png)
 
-![3d view](Images\V2\PCB1_3D.png)
+![3d view](Images/V2/PCB1_3D.png)
 
 **Total time spent: 2.5 hrs**
 
@@ -127,8 +127,9 @@ I realized that I didn't actually know which pin is positive or negative on the 
 
 I wanted the 3 buttons that control the thickness of the toilet paper folds to be at the top for easy user access and because it looks nice. Since it is 90 degrees to the bulk of the board (which I will fit vertically alongst the backside of the toilet paper folder), I made another pcb for it.
 
-![button schematic](Images\V2\button_schematic.png)
-![button PCB](Images\V2\button_pcb.png)
+![button schematic](Images/V2/button_schematic.png)
+
+![button PCB](Images/V2/button_pcb.png)
 
 **Total time spent: 0.75 hrs**
 
@@ -142,7 +143,7 @@ I wanted the 3 buttons that control the thickness of the toilet paper folds to b
 
 After putting it through JLC PCB and seeing the price...I realized I had to make the pcb a lot smaller and compact to save costs. Also I suppose it's a good habit to conserve as much space as possible for tolerance issues etc. Futhermore, I updated the capacitors from through hole to smd because I planned to use PCBA for the capacitors (ironically the only part I could find in the JLCPCB library)
 
-![downsized PCB](Images\V2\downsized_pcb.png)
+![downsized PCB](Images/V2/downsized_pcb.png)
 
 **Total time spent: 0.5 hrs**
 

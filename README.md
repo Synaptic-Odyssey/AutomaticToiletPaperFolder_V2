@@ -6,18 +6,18 @@ Rendered PCB images:
 
 Main PCB:
 
-![Final_PCB_3d](Images\Final\Final_PCB_3D.png)
+![Final_PCB_3d](Images/Final/Final_PCB_3D.png)
 
-![Final_PCB](Images\Final\Final_PCB.png)
+![Final_PCB](Images/Final/Final_PCB.png)
 
-![Final_schematic](Images\V2\V2_ schematic.png)
+![Final_schematic](Images/V2/V2_ schematic.png)
 
 
 
 Buttons:
 
-![button_pcb_3D](Images\Final\final_button_3d.png)
+![button_pcb_3D](Images/Final/final_button_3d.png)
 
-![button PCB](Images\V2\button_pcb.png)
+![button PCB](Images/V2/button_pcb.png)
 
-![button schematic](Images\V2\button_schematic.png)
+![button schematic](Images/V2/button_schematic.png)
