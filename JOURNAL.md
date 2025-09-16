@@ -26,10 +26,6 @@ Here is a list of the materials (screenshots of my google doc for planning b/c I
 
 
 
-<br>
-<br>
-
-
 # August 25th: Created Schematic
 
 ![V1_Schematic](Images\V1\V1_schematic.png)
@@ -102,8 +98,12 @@ Here are the messed up pins:
 ![messed_pcb](Images\V2\messed_pcb.png)
 
 
-
 **Total time spent: 3 hrs**
+
+
+<br>
+<br>
+
 
 
 # September 11th: Finished 1st PCB
@@ -117,6 +117,8 @@ I realized that I didn't actually know which pin is positive or negative on the 
 **Total time spent: 2.5 hrs**
 
 
+<br>
+<br>
 
 
 
@@ -125,17 +127,27 @@ I realized that I didn't actually know which pin is positive or negative on the 
 
 I wanted the 3 buttons that control the thickness of the toilet paper folds to be at the top for easy user access and because it looks nice. Since it is 90 degrees to the bulk of the board (which I will fit vertically alongst the backside of the toilet paper folder), I made another pcb for it.
 
-![alt text](Images\V2\button_schematic.png)
-![alt text](Images\V2\button_pcb.png)
+![button schematic](Images\V2\button_schematic.png)
+![button PCB](Images\V2\button_pcb.png)
 
 **Total time spent: 0.75 hrs**
+
+
+<br>
+<br>
 
 
 
 # September 13th: Downsized 1st PCB
 
-After putting it through JLC PCB and seeing the price...I realized I had to make the pcb a lot smaller and compact to save costs. Also I suppose it's a good habit to conserve as much space as possible for tolerance issues etc.
+After putting it through JLC PCB and seeing the price...I realized I had to make the pcb a lot smaller and compact to save costs. Also I suppose it's a good habit to conserve as much space as possible for tolerance issues etc. Futhermore, I updated the capacitors from through hole to smd because I planned to use PCBA for the capacitors (ironically the only part I could find in the JLCPCB library)
 
-![alt text](Images\V2\downsized_pcb.png)
+![downsized PCB](Images\V2\downsized_pcb.png)
 
 **Total time spent: 0.5 hrs**
+
+<br>
+<br>
+
+
+**Grand total: 21.75 hrs** 
