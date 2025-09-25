@@ -5,6 +5,12 @@ Description: The name is quite self explanatory :^) --> It's 2025, why are we st
 Created On: 8/22/2025
 ---
 
+
+
+![poster](Images/ATPF_poster.png)
+
+
+
 # August 22nd: Started finding components for PCB
 
 My goal was to ensure that the components were as cheap as possible, after all, I wanted to reduce the cost of the final product. It was mainly just me searching stuff up meticulously on Aliexpress, and also researching on what parts to make since I'm still fairly new to electronics; this is my 3rd project. The
